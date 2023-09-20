@@ -127,7 +127,7 @@ ul, li, a {
 
 
 .content-aside {
-  width: 100%;
+  max-width: 100%;
 }
 
 .caption-line {
@@ -155,7 +155,7 @@ ul, li, a {
 }
 
 .trend-container {
-  min-width: 1660px;
+  min-width: 100%;
   display: flex;
   margin: 0 auto;
   justify-content: center;
@@ -166,6 +166,7 @@ ul, li, a {
 }
 
 .trend-content {
+  min-width: 100%;
   display: flex;
   align-items: flex-end;
   width: calc(100% / 4 - 4px);
@@ -275,7 +276,7 @@ ul, li, a {
 }
 
 .content {
-  width: 778px;
+  max-width: 778px;
   box-sizing: border-box;
   margin-left: 15px;
 }
@@ -292,7 +293,7 @@ ul, li, a {
 
 .picture {
   display: inline-block;
-  width: 381px;
+  max-width: 381px;
   background-color: #eff6f1;
   margin-right: 34px;
 }
@@ -371,7 +372,7 @@ ul, li, a {
 }
 
 .sidebar {
-  width: 272px;
+  max-width: 272px;
   margin-right: 9px;
   font-family: "OpenSans-Bold", sans-serif;
 }
@@ -413,7 +414,7 @@ ul, li, a {
 
 .pic {
   display: inline-block;
-  width: 70px;
+  min-width: 70px;
   background-color: #eff6f1;
   margin-right: 17px;
 }
@@ -456,7 +457,7 @@ ul, li, a {
 
 .search {
   box-sizing: border-box;
-  width: 223px;
+  min-width: 223px;
   height: 47px;
   background-color: #f4f7f6;
   border: none;
@@ -525,7 +526,7 @@ ul, li, a {
 }
 
 .button {
-  width: 100%;
+  max-width: 100%;
   height: 47px;
   background-color: #b59f5b;
   border: none;
@@ -766,7 +767,7 @@ ul, li, a {
 .footer {
   display: flex;
   margin: 0 auto;
-  width: 1170px;
+  max-width: 1170px;
   background-color: #f4f7f6;
   margin-bottom: 73px;
   margin-top: -15px;
@@ -1079,7 +1080,7 @@ ul, li, a {
 
   .header-title {
     font-size: 40px;
-    margin: 85px 84px auto auto;
+    margin: 85px auto auto;
     max-width: 611px;
     line-height: 1.4;
   }
@@ -1326,7 +1327,6 @@ margin-left: 14px;
    } 
 
    .trend-container {
-    max-width: 362px;
     display: flex;
     flex-direction: column;
 
@@ -1349,13 +1349,12 @@ margin-left: 14px;
    }
 
    .trend-content {
-    max-width: 359px;
+    width: 100%;
     min-height: 230px;
    }
 
    .container-box {
     overflow: hidden;
-    max-width: 331px;
     display: flex;
     flex-direction: column;
     margin-top: 39px;
@@ -1386,7 +1385,8 @@ margin-left: 14px;
 }
 
 .picture {
-  max-width: 329px;
+  min-width: 100%;
+  max-width: 100%;
 }
 
    .category {
@@ -1415,7 +1415,6 @@ margin-left: 14px;
 }
 
 .caption-line {
-max-width: 331px;
     margin-bottom: 20px;
     margin-left: 12px;
 }
@@ -1427,7 +1426,8 @@ max-width: 331px;
   .sidebar {
     margin-left: 15px;
     margin-right: 15px;
-    max-width: 362px;
+    max-width: 100%;
+    min-width: 100%;
   }
 
   .post-text {
@@ -1464,12 +1464,12 @@ max-width: 331px;
 }
 
 .tags-header {
-  width: 331px;
+  min-width: 331px;
   box-sizing: border-box;
   flex-grow: 1;
 }
    .tags {
-  width: 331px;
+  min-width: 331px;
   display: flex;
 
  }
@@ -1488,7 +1488,7 @@ max-width: 331px;
   display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: stretch;
+        min-width: 100%;
 }
 
 .product-title-text {
@@ -1498,7 +1498,7 @@ max-width: 331px;
 }
 
 .footer {
-  max-width: 369px;
+  min-width: 369px;
     margin-right: 15px;
     margin-left: 15px;
 }
